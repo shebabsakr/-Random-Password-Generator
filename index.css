@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 800px;
+    height: 1205px;
+    margin: auto;
+    background-color: #1B244A;
+    border-radius: 25px;
+}
+
+h3 {
+    color: #F94F6D;
+}
+
+button {
+    color: #9AABD8;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+button :hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+    cursor: pointer;
+}
+
+#reset-btn-guest, #reset-btn-home {
+    font-weight: unset !important;
+    width: 100px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#teams h2{
+    display: inline-block;
+    color: white;
+    width: 350px;
+    font-size: 45px;
+    position: relative;
+    left: 160px;
+    font-family: 'Cursed Timer ULiL';
+
+}
+
+h3 {
+    background-color: black;
+    width: 190px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 75px !important; 
+    font-size: 35px;
+    height: 182px;
+    align-items: center;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    top: -180px;
+    font-size: 150px;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    left: 50px;
+    padding-top: 40px;
+}
+
+#inc #inc-guest, #inc #inc-home {
+    position: relative;
+    top: 250px;
+    left: 50px;
+    display: inline-flex !important;
+}
+
+#inc #inc-home h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#inc #inc-guest h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#timer input {
+    width: 40%;;
+    height: 50px;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    font-family: 'Cursed Timer ULiL';
+    text-decoration: none;
+
+
+}
+
+#timer h2 {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    text-align: center;
+    font-size: 150px;
+    height: 182px;
+    width: 80%;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin: auto;
+    background-color: black;
+}
+
+#timer input {
+    margin-left: 250px;
+    border: 3px solid black;
+    color: black;
+    background-color: whitesmoke;
+}
+
+#timer {
+    overflow: hidden;
+}
+
+#timer .big-font {
+    font-size: 80px !important;
+    font-weight: bolder;
+}
+
+#timer .small-font {
+    font-size: 70px !important;
+}
+
+#timer button {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Cursed Timer ULiL';
+} 
+
+ #timer {
+    padding-top: 100px;
+ }
+
+ #timer #reset-btn-timer {
+    margin-left: 115px;
+    margin-top: -100px;
+    transform: translateY(-53.5px);
+ }
+
+
